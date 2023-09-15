@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-import { LeafPoll, Result } from "react-leaf-polls";
 import SafeApps from "~~/components/multisig/SafeApps";
 import { useAppStore } from "~~/services/store/store";
 

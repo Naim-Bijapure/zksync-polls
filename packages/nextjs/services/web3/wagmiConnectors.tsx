@@ -24,20 +24,18 @@ const enabledChains = [
   // configuredNetwork,
   {
     ...chains.zkSyncTestnet,
-    // on local  zkSyncTestnet
+    //n-temp on local  zkSyncTestnet
     // id: 270,
     // rpcUrls: {
     //   default: {
-    //     // http: ["http://host.docker.internal:3050"],
-    //     http: ["http://192.168.1.105:3050"],
+    //     http: ["http://localhost:3050"],
     //   },
     //   public: {
-    //     // http: ["http://host.docker.internal:3050"],
-    //     http: ["http://192.168.1.105:3050"],
+    //     http: ["http://localhost:3050"],
     //   },
     // },
   },
-  chains.mainnet,
+  // chains.mainnet,
   // chains.polygon,
   // chains.goerli,
   // chains.sepolia,

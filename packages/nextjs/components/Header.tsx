@@ -40,12 +40,12 @@ export const Header = () => {
         <NavLink href="/">Home</NavLink>
       </li>
 
-      <li>
+      {/* <li>
         <NavLink href="/wallet-connect">Wallet connect</NavLink>
       </li>
       <li>
         <NavLink href="/safe-app">Safe app</NavLink>
-      </li>
+      </li> */}
       {/* <li>
         <NavLink href="/example-ui">
           <SparklesIcon className="h-4 w-4" />
@@ -84,7 +84,7 @@ export const Header = () => {
             <Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />
           </Link>
           <div className="flex flex-col">
-            <span className="font-bold leading-tight">Multisig</span>
+            <span className="font-bold leading-tight">Zk-polls</span>
             <span className="text-xs">built with scaffold-eth-2</span>
           </div>
         </div>

@@ -1,9 +1,14 @@
-import Home from "~~/components/multisig/Home";
+import Home from "../components/polls/Home";
+import { NextPage } from "next";
+import { useAccount } from "wagmi";
 
-const index = () => {
+const index: NextPage = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const { isConnected } = useAccount();
   return (
     <div className="">
-      <Home />
+      {isConnected && <Home />}
+      {!isConnected && <div className="m-2 flex justify-center text-primary">Connect your wallet to see polls</div>}
     </div>
   );
 };
